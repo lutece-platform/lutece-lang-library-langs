@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <properties>
+        <title>Library langs</title>
+    </properties>
+    <head>
+     	<meta name="keywords" content="lang,language,locale,internationalization,i18n"/>                           
+     </head>      
+    <body>
+        <section name="Library langs">
+
+            <subsection name="Introduction">
+                <p>This library provides Lutece resources for the languages :  </p>
+                <ul>
+		<li>ar</li>
+		<li>cs</li>
+		<li>da</li>
+		<li>de</li>
+		<li>es</li>
+		<li>fi</li>
+		<li>hu</li>
+		<li>it</li>
+		<li>nl</li>
+		<li>pt</li>
+		<li>sv</li>
+		</ul>  
+		<p>Crowdin contributions are welcome !</p>
+            </subsection>
+            <subsection name="Configuration">
+                <p>Modify (or override) the properties of the lutece.properties file, in section "Internationalization (i18n)" : </p>
+                <ul>
+                <li>lutece.i18n.defaultLocale=fr</li>
+                <li>lutece.i18n.availableLocales=en,fr,ar,cs,da,de,es,fi,hu,it,nl,pt,sv</li>
+                </ul>
+            </subsection>
+            <subsection name="Usage">
+                <p>Simply select the language in Back Office menu.</p>          
+            </subsection>
+        </section>
+    </body>
+</document>

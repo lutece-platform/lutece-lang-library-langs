@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <properties>
+        <title>Librairie langs</title>
+    </properties>
+    <head>
+     	<meta name="keywords" content="langue,locale,internationalisation"/>                           
+     </head>      
+    <body>
+        <section name="Librairie langs">
+
+            <subsection name="Introduction">
+                <p>Ce plugin permet d'ajouter les resources permettant de traduire les sites lutèce dans les langues suivantes : </p>
+                <ul>
+		<li>ar</li>
+		<li>cs</li>
+		<li>da</li>
+		<li>de</li>
+		<li>es</li>
+		<li>fi</li>
+		<li>hu</li>
+		<li>it</li>
+		<li>nl</li>
+		<li>pt</li>
+		<li>sv</li>
+		</ul>  
+            </subsection>
+            <subsection name="Configuration">
+                <p>Pour prendre en compte ces langues, il est nécessaire de modifier (ou étendre) les propriétés suivantes dans le fichier de configuration lutece.properties</p>
+                <p>Dans la section "Internationalization (i18n)" : </p>
+                <ul>
+                <li>lutece.i18n.defaultLocale=fr</li>
+                <li>lutece.i18n.availableLocales=en,fr,ar,cs,da,de,es,fi,hu,it,nl,pt,sv</li>
+                </ul>
+            </subsection>
+            <subsection name="Usage">
+                <p>Sélectionner simplement la langue souhaitée dans le back office.</p>          
+            </subsection>
+        </section>
+    </body>
+</document>
