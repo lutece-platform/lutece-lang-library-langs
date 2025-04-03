@@ -26,7 +26,20 @@
 		</ul>  
             </subsection>
             <subsection name="Configuration">
-                <p>Pour prendre en compte ces langues, il est nécessaire de modifier (ou étendre) les propriétés suivantes dans le fichier de configuration lutece.properties</p>
+
+                <p>1. Ajouter la dépendance dans le pom.xml du site</p>
+                 <div class="source">
+   		<pre>
+<dependency>
+	<groupId>fr.paris.lutece.plugins</groupId>
+	<artifactId>library-langs</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<type>jar</type>            
+</dependency>
+		</pre>
+		</div>
+                <p>2. Pour prendre en compte ces langues, il est nécessaire de modifier (ou étendre) les propriétés suivantes dans le fichier de configuration lutece.properties</p>
+
                 <p>Dans la section "Internationalization (i18n)" : </p>
                 <ul>
                 <li>lutece.i18n.defaultLocale=fr</li>
